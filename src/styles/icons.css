@@ -1,0 +1,15 @@
+#toggleBtn::before{
+    content: '\58';
+    font-family: fontAwesome;
+    color: var(--cinza);
+}
+
+#toggleBtn.burguer::before{
+    content: '\f0c9';
+}
+
+#secondToggleBtn::before{
+    content: '\f002';
+    font-family: fontAwesome;
+    color: var(--cinza);
+}

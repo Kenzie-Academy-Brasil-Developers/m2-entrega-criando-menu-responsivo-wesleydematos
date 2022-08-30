@@ -1,0 +1,13 @@
+body, header, img, span, nav, div, p, input{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --branco: #FFFFFF;
+    --cinza-fundo: #F8F9FA;
+    --cinza-input: #F1F3F5;
+    --cinza: #868E96;
+    --preto: #212529;
+}
