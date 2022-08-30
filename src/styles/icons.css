@@ -1,12 +1,12 @@
 #toggleBtn::before{
-    content: '\58';
+    content: '\f0c9';
     font-family: fontAwesome;
     color: var(--cinza);
     cursor: pointer;
 }
 
 #toggleBtn.burguer::before{
-    content: '\f0c9';
+    content: '\58';
 }
 
 #secondToggleBtn::before{

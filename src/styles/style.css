@@ -1,5 +1,7 @@
 body{
     background-color: var(--cinza-fundo);
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 
 header{
