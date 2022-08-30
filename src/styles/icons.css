@@ -2,6 +2,7 @@
     content: '\58';
     font-family: fontAwesome;
     color: var(--cinza);
+    cursor: pointer;
 }
 
 #toggleBtn.burguer::before{
@@ -12,4 +13,5 @@
     content: '\f002';
     font-family: fontAwesome;
     color: var(--cinza);
+    cursor: pointer;
 }
