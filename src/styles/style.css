@@ -1,7 +1,25 @@
+body{
+    background-color: var(--cinza-fundo);
+}
+
 header{
     width: 100%;
     height: 80px;
     background-color: var(--branco);
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > img{
+    width: 95px;
+    height: 19px;
+    margin-left: 5%;
+}
+
+header > span{
+    margin-right: 5%;
 }
 
 nav{
@@ -20,6 +38,7 @@ nav{
 
 p{
     color: var(--cinza);
+    font-weight: 500;
 }
 
 ::placeholder{
