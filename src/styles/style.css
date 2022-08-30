@@ -39,6 +39,7 @@ nav{
 p{
     color: var(--cinza);
     font-weight: 500;
+    cursor: pointer;
 }
 
 .navItem{
@@ -79,11 +80,11 @@ input{
     border: none;
     background-color: var(--cinza-input);
     border-radius: 8px;
+    padding-left: 41px;
 }
 
 ::placeholder{
     color: var(--cinza);
-    padding-left: 41px;
 }
 
 .nav__input span{
