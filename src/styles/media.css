@@ -44,6 +44,11 @@
         gap: 32px;
         width: 284px;
         margin-right: 320px;
+        animation: none;
+    }
+
+    .navDesktop{
+        animation: none;
     }
 
     .nav__all{

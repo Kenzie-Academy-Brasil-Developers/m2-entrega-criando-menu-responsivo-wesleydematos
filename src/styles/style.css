@@ -104,6 +104,25 @@ input{
     margin-left: 5%;
 }
 
+.itens{
+    animation: showMenu 1s;
+}
+
+.navDesktop{
+    animation: showMenu 1s;
+}
+
 .hidden {
     display: none;
 }
+
+@keyframes showMenu {
+    0% {
+      transform: translate(0, -3%);
+      height: 0%;
+    }
+    100% {
+      transform: translate(0);
+      height: 100%;
+    }
+  }
